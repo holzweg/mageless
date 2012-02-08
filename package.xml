@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<package>
+    <name>Holzweg_Less</name>
+    <version>0.0.1</version>
+    <stability>devel</stability>
+    <license uri="http://www.apache.org/licenses/LICENSE-2.0">Apache License v2.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Integrates LESS CSS via less.js</summary>
+    <description>This extension integrates LESS CSS via less.js.</description>
+    <notes>Work in progress</notes>
+    <authors>
+        <author>
+            <name>Mathias Geat</name>
+            <user>mage</user>
+            <email>mathias.geat@holzweg.com</email>
+        </author>
+    </authors>
+    <date>2012-02-08</date>
+    <time>19:29:37</time>
+    <contents>
+        <target name="magecommunity">
+            <dir name="Holzweg">
+                <dir name="Less">
+                    <dir name="Block">
+                        <dir name="Html">
+                            <file name="Head.php" hash="851743facc28c719cc6025b5d606b2e3"/>
+                        </dir>
+                    </dir>
+                    <dir name="etc">
+                        <file name="config.xml" hash="0e5187fb5280c690d1584f7f8c34f5e5"/>
+                    </dir>
+                </dir>
+            </dir>
+        </target>
+        <target name="mageetc">
+            <dir name="modules">
+                <file name="Holzweg_Less.xml" hash="4ce4177fa45dd6e13e912a1d65bbde2c"/>
+            </dir>
+        </target>
+        <target name="mageweb">
+            <dir name="js">
+                <dir name="lib">
+                    <file name="less.js" hash="428e4b1f5b88e71e8dd8035ace2ae7ac"/>
+                </dir>
+            </dir>
+        </target>
+    </contents>
+    <compatible/>
+    <dependencies>
+        <required>
+            <php>
+                <min>5.2.6</min>
+                <max>6.0.0</max>
+            </php>
+        </required>
+    </dependencies>
+</package>
